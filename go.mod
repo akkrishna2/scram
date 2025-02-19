@@ -1,8 +1,10 @@
-module github.com/xdg-go/scram
+module github.com/akkrishna2/scram
 
-go 1.11
+go 1.23
 
 require (
-	github.com/xdg-go/pbkdf2 v1.0.0
-	github.com/xdg-go/stringprep v1.0.4
+	github.com/akkrishna2/pbkdf2 v0.0.1
+	github.com/akkrishna2/stringprep v0.0.1
 )
+
+require golang.org/x/text v0.22.0 // indirect

@@ -9,7 +9,7 @@ package scram
 import (
 	"sync"
 
-	"github.com/xdg-go/pbkdf2"
+	"github.com/akkrishna2/pbkdf2"
 )
 
 // Client implements the client side of SCRAM authentication.  It holds
